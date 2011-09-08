@@ -25,7 +25,6 @@ CFRunLoopRef currentLoop;
 - (float) orientationAngle
 {
 #if TARGET_IPHONE_SIMULATOR
-	// NSLog( @"Running in the simulator!" );
 	switch (self.orientation)
 	{
 		case UIDeviceOrientationPortrait: 
