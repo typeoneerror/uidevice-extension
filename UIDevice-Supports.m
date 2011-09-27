@@ -64,4 +64,10 @@
     return (gcClass && osVersionSupported);
 }
 
+- (BOOL)deviceSupportsRetinaDisplay
+{
+    return ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
+            [UIScreen mainScreen].scale == 2.0);
+}
+
 @end

@@ -11,5 +11,6 @@
 - (BOOL)deviceSupportsBackgroundTasks;
 - (BOOL)deviceSupportsBluetooth;
 - (BOOL)deviceSupportsGameCenter;
+- (BOOL)deviceSupportsRetinaDisplay;
 
 @end
